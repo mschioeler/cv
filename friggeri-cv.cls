@@ -186,7 +186,7 @@
 % Bibliography %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[style=verbose, maxnames=99]{biblatex}
+\RequirePackage[style=verbose, maxnames=99, sorting=ydnt]{biblatex}
 
 \DeclareFieldFormat[article]{title}{#1\par}
 \DeclareFieldFormat[book]{title}{#1\par}
@@ -305,7 +305,7 @@
 \newcommand{\printbibsection}[2]{
   \begin{refsection}
     \nocite{*}
-    \printbibliography[type={#1}, title={#2}, heading=bibheading]
+    \printbibliography[sorting=chronological, type={#1}, title={#2}, heading=bibheading]
   \end{refsection}
 }
 
