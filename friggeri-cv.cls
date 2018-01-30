@@ -51,16 +51,16 @@
 \RequirePackage[math-style=TeX]{unicode-math}
 
 
-\newfontfamily\bodyfont[]{HelveticaNeue.ttf}
-\newfontfamily\thinfont[]{HelveticaNeueUltraLight.otf}
-\newfontfamily\headingfont[]{HelveticaNeueCondensedBold.otf}
+\newfontfamily\bodyfont[Path=fonts/]{HelveticaNeue.ttf}
+\newfontfamily\thinfont[Path=fonts/]{HelveticaNeueUltraLight.otf}
+\newfontfamily\headingfont[Path=fonts/]{HelveticaNeueCondensedBold.otf}
 
 \defaultfontfeatures{Mapping=tex-text}
 
 
 
 \setmainfont[%
-  Path = ,
+  Path = fonts/,
   UprightFont = HelveticaNeueLt,
   SmallCapsFont = HelveticaNeueLt,
   BoldFont = HelveticaNeueBd,
