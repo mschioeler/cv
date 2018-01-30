@@ -55,7 +55,13 @@
 \newfontfamily\headingfont[]{HelveticaNeueCondensedBold.otf}
 
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text, Color=textcolor]{HelveticaNeueLt.ttf}
+\setmainfont[%
+  Path = ,
+  UprightFont = HelveticaNeueLt,
+  BoldFont = HelveticaNeueBd,
+  ItalicFont = HelveticaNeueIt,
+  Extension = .ttf]{}
+%//\setmainfont[UprightFont = Lt, Extention Mapping=tex-text, Color=textcolor]{HelveticaNeueLt.ttf}
 
 %\setmathfont{XITS Math}
 
