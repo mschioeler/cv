@@ -50,18 +50,23 @@
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX]{unicode-math}
 
+
 \newfontfamily\bodyfont[]{HelveticaNeue.ttf}
 \newfontfamily\thinfont[]{HelveticaNeueUltraLight.otf}
 \newfontfamily\headingfont[]{HelveticaNeueCondensedBold.otf}
 
 \defaultfontfeatures{Mapping=tex-text}
+
+
+
 \setmainfont[%
   Path = ,
   UprightFont = HelveticaNeueLt,
+  SmallCapsFont = HelveticaNeueLt,
   BoldFont = HelveticaNeueBd,
   ItalicFont = HelveticaNeueIt,
-  Extension = .ttf]{}
-%//\setmainfont[UprightFont = Lt, Extention Mapping=tex-text, Color=textcolor]{HelveticaNeueLt.ttf}
+  Extension = .ttf,
+  Mapping=tex-text, Color=textcolor]{}
 
 %\setmathfont{XITS Math}
 
