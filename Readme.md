@@ -1,5 +1,5 @@
 # About
-You can safely the two warnings about incorrect number of paramters. You will have to build twice the first time (using xelatex cv.tex).
+You can safely ignore the two warnings about incorrect number of paramters. You will have to build twice the first time (using xelatex cv.tex).
 
 Latest version of my CV, typesetted in Helvetica and using colors inspired by Monokai (there is an `print` option which renders in black and white, and reverts the header to dark on light, if printing on paper is needed).
 
