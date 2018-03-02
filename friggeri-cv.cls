@@ -50,17 +50,17 @@
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX]{unicode-math}
 
-
-\newfontfamily\bodyfont[Path=fonts/]{HelveticaNeue.ttf}
-\newfontfamily\thinfont[Path=fonts/]{HelveticaNeueUltraLight.otf}
-\newfontfamily\headingfont[Path=fonts/]{HelveticaNeueCondensedBold.otf}
+\newcommand{\fontPath}{../fonts/}%"C:/Users/mschioeler/git/cv/fonts/"}
+\newfontfamily\bodyfont[Path=\fontPath]{HelveticaNeue.ttf}
+\newfontfamily\thinfont[Path=\fontPath]{HelveticaNeueUltraLight.otf}
+\newfontfamily\headingfont[Path=\fontPath]{HelveticaNeueCondensedBold.otf}
 
 \defaultfontfeatures{Mapping=tex-text}
 
 
 
 \setmainfont[%
-  Path = fonts/,
+  Path = \fontPath,
   UprightFont = HelveticaNeueLt,
   SmallCapsFont = HelveticaNeueLt,
   BoldFont = HelveticaNeueBd,
